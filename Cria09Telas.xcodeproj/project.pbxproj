@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA75F8F7251AE159008425ED /* MyViewTwoPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75F8F6251AE159008425ED /* MyViewTwoPushedViewController.swift */; };
+		CA75F8FA251AE162008425ED /* MyViewTwoPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA75F8F9251AE162008425ED /* MyViewTwoPushed.storyboard */; };
+		CA75F8FD251AE171008425ED /* MyViewTwoModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75F8FC251AE171008425ED /* MyViewTwoModalViewController.swift */; };
+		CA75F900251AE179008425ED /* MyViewTwoModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA75F8FF251AE179008425ED /* MyViewTwoModal.storyboard */; };
+		CA7A1BC9251ADE7A00BC5D78 /* MyViewEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A1BC8251ADE7A00BC5D78 /* MyViewEightViewController.swift */; };
+		CA7A1BCC251ADE8300BC5D78 /* MyViewEight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7A1BCB251ADE8300BC5D78 /* MyViewEight.storyboard */; };
+		CABE78A3251AAFD700F37C17 /* MyViewSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78A2251AAFD700F37C17 /* MyViewSixViewController.swift */; };
+		CABE78A7251AAFE200F37C17 /* MyViewSix.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78A6251AAFE200F37C17 /* MyViewSix.storyboard */; };
+		CABE78AB251AB02F00F37C17 /* MyViewSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78AA251AB02F00F37C17 /* MyViewSevenViewController.swift */; };
+		CABE78AF251AB03D00F37C17 /* MyViewSeven.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78AE251AB03D00F37C17 /* MyViewSeven.storyboard */; };
+		CABE78BC251AB0D600F37C17 /* MyViewNineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78BB251AB0D600F37C17 /* MyViewNineViewController.swift */; };
+		CABE78C0251AB0DD00F37C17 /* MyViewNine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78BF251AB0DD00F37C17 /* MyViewNine.storyboard */; };
+		CABE78C7251ACB8000F37C17 /* MyViewThreeModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78C6251ACB8000F37C17 /* MyViewThreeModalViewController.swift */; };
+		CABE78CB251ACB8800F37C17 /* MyViewThreeModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78CA251ACB8800F37C17 /* MyViewThreeModal.storyboard */; };
+		CABE78CE251ACB9B00F37C17 /* MyViewThreePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78CD251ACB9B00F37C17 /* MyViewThreePushedViewController.swift */; };
+		CABE78D1251ACBA300F37C17 /* MyViewThreePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78D0251ACBA300F37C17 /* MyViewThreePushed.storyboard */; };
+		CABE78DE251ACBFB00F37C17 /* MyViewFourModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78DD251ACBFB00F37C17 /* MyViewFourModalViewController.swift */; };
+		CABE78E2251ACC0200F37C17 /* MyViewFourModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78E1251ACC0200F37C17 /* MyViewFourModal.storyboard */; };
+		CABE78E7251ACC2100F37C17 /* MyViewFourPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78E6251ACC2100F37C17 /* MyViewFourPushedViewController.swift */; };
+		CABE78EA251ACC2900F37C17 /* MyViewFourPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78E9251ACC2900F37C17 /* MyViewFourPushed.storyboard */; };
+		CABE78EE251ACC5300F37C17 /* MyViewFiveModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78ED251ACC5300F37C17 /* MyViewFiveModalViewController.swift */; };
+		CABE78F2251ACC5E00F37C17 /* MyViewFiveModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78F1251ACC5E00F37C17 /* MyViewFiveModal.storyboard */; };
+		CABE78F5251ACC6D00F37C17 /* MyViewFivePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE78F4251ACC6D00F37C17 /* MyViewFivePushedViewController.swift */; };
+		CABE78F8251ACC7300F37C17 /* MyViewFivePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE78F7251ACC7300F37C17 /* MyViewFivePushed.storyboard */; };
+		CABE7901251ACCB100F37C17 /* MyViewSixModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7900251ACCB100F37C17 /* MyViewSixModalViewController.swift */; };
+		CABE7904251ACCBA00F37C17 /* MyViewSixModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE7903251ACCBA00F37C17 /* MyViewSixModal.storyboard */; };
+		CABE7908251ACCCF00F37C17 /* MyViewSixPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7907251ACCCF00F37C17 /* MyViewSixPushedViewController.swift */; };
+		CABE790C251ACCDB00F37C17 /* MyViewSixPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE790B251ACCDB00F37C17 /* MyViewSixPushed.storyboard */; };
+		CABE7912251ACD5500F37C17 /* MyViewSevenModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7911251ACD5500F37C17 /* MyViewSevenModalViewController.swift */; };
+		CABE7916251ACD5E00F37C17 /* MyViewSevenModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE7915251ACD5E00F37C17 /* MyViewSevenModal.storyboard */; };
+		CABE7919251ACD6B00F37C17 /* MyViewSevenPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7918251ACD6B00F37C17 /* MyViewSevenPushedViewController.swift */; };
+		CABE791C251ACD7300F37C17 /* MyViewSevenPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE791B251ACD7300F37C17 /* MyViewSevenPushed.storyboard */; };
+		CABE7921251ACD9700F37C17 /* MyViewEightModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7920251ACD9700F37C17 /* MyViewEightModalViewController.swift */; };
+		CABE7925251ACDA000F37C17 /* MyViewEightModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE7924251ACDA000F37C17 /* MyViewEightModal.storyboard */; };
+		CABE7928251ACDB600F37C17 /* MyViewEightPushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7927251ACDB600F37C17 /* MyViewEightPushedViewController.swift */; };
+		CABE792B251ACDBE00F37C17 /* MyViewEightPushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE792A251ACDBE00F37C17 /* MyViewEightPushed.storyboard */; };
+		CABE7930251ACDE000F37C17 /* MyViewNineModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE792F251ACDE000F37C17 /* MyViewNineModalViewController.swift */; };
+		CABE7934251ACDE700F37C17 /* MyViewNineModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE7933251ACDE700F37C17 /* MyViewNineModal.storyboard */; };
+		CABE7937251ACDF400F37C17 /* MyViewNinePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABE7936251ACDF400F37C17 /* MyViewNinePushedViewController.swift */; };
+		CABE793A251ACDFB00F37C17 /* MyViewNinePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABE7939251ACDFB00F37C17 /* MyViewNinePushed.storyboard */; };
+		CAC2C2E62518E83900878450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C2E52518E83900878450 /* AppDelegate.swift */; };
+		CAC2C2E82518E83900878450 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C2E72518E83900878450 /* SceneDelegate.swift */; };
+		CAC2C2EA2518E83900878450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C2E92518E83900878450 /* ViewController.swift */; };
+		CAC2C2ED2518E83900878450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C2EB2518E83900878450 /* Main.storyboard */; };
+		CAC2C2EF2518E83B00878450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C2EE2518E83B00878450 /* Assets.xcassets */; };
+		CAC2C2F22518E83B00878450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C2F02518E83B00878450 /* LaunchScreen.storyboard */; };
+		CAC2C2FD2518E8D500878450 /* MyViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C2FC2518E8D500878450 /* MyViewOneViewController.swift */; };
+		CAC2C3002518E8E100878450 /* MyViewOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C2FF2518E8E100878450 /* MyViewOne.storyboard */; };
+		CAC2C3062518EC3500878450 /* MyViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C3052518EC3500878450 /* MyViewTwoViewController.swift */; };
+		CAC2C30A2518EC3F00878450 /* MyViewTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C3092518EC3F00878450 /* MyViewTwo.storyboard */; };
+		CAC2C30E2518EDAB00878450 /* MyViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C30D2518EDAB00878450 /* MyViewThreeViewController.swift */; };
+		CAC2C3112518EDB400878450 /* MyViewThree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C3102518EDB400878450 /* MyViewThree.storyboard */; };
+		CAC2C3152518EE7900878450 /* MyViewFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C3142518EE7900878450 /* MyViewFourViewController.swift */; };
+		CAC2C3192518EE8000878450 /* MyViewFour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C3182518EE8000878450 /* MyViewFour.storyboard */; };
+		CAC2C31E2518EF8600878450 /* MyViewFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C31D2518EF8600878450 /* MyViewFiveViewController.swift */; };
+		CAC2C3212518EF9800878450 /* MyViewFive.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C3202518EF9800878450 /* MyViewFive.storyboard */; };
+		CAC2C3272518F1AA00878450 /* MyViewOneModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C3262518F1AA00878450 /* MyViewOneModalViewController.swift */; };
+		CAC2C32B2518F1B400878450 /* MyViewOneModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C32A2518F1B400878450 /* MyViewOneModal.storyboard */; };
+		CAC2C32E2518F4D100878450 /* MyViewOnePushedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2C32D2518F4D100878450 /* MyViewOnePushedViewController.swift */; };
+		CAC2C3312518F4DF00878450 /* MyViewOnePushed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2C3302518F4DF00878450 /* MyViewOnePushed.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA75F8F6251AE159008425ED /* MyViewTwoPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoPushedViewController.swift; sourceTree = "<group>"; };
+		CA75F8F9251AE162008425ED /* MyViewTwoPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoPushed.storyboard; sourceTree = "<group>"; };
+		CA75F8FC251AE171008425ED /* MyViewTwoModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoModalViewController.swift; sourceTree = "<group>"; };
+		CA75F8FF251AE179008425ED /* MyViewTwoModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwoModal.storyboard; sourceTree = "<group>"; };
+		CA7A1BC8251ADE7A00BC5D78 /* MyViewEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewEightViewController.swift; sourceTree = "<group>"; };
+		CA7A1BCB251ADE8300BC5D78 /* MyViewEight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewEight.storyboard; sourceTree = "<group>"; };
+		CABE78A2251AAFD700F37C17 /* MyViewSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSixViewController.swift; sourceTree = "<group>"; };
+		CABE78A6251AAFE200F37C17 /* MyViewSix.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSix.storyboard; sourceTree = "<group>"; };
+		CABE78AA251AB02F00F37C17 /* MyViewSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSevenViewController.swift; sourceTree = "<group>"; };
+		CABE78AE251AB03D00F37C17 /* MyViewSeven.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSeven.storyboard; sourceTree = "<group>"; };
+		CABE78BB251AB0D600F37C17 /* MyViewNineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewNineViewController.swift; sourceTree = "<group>"; };
+		CABE78BF251AB0DD00F37C17 /* MyViewNine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewNine.storyboard; sourceTree = "<group>"; };
+		CABE78C6251ACB8000F37C17 /* MyViewThreeModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeModalViewController.swift; sourceTree = "<group>"; };
+		CABE78CA251ACB8800F37C17 /* MyViewThreeModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreeModal.storyboard; sourceTree = "<group>"; };
+		CABE78CD251ACB9B00F37C17 /* MyViewThreePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreePushedViewController.swift; sourceTree = "<group>"; };
+		CABE78D0251ACBA300F37C17 /* MyViewThreePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThreePushed.storyboard; sourceTree = "<group>"; };
+		CABE78DD251ACBFB00F37C17 /* MyViewFourModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFourModalViewController.swift; sourceTree = "<group>"; };
+		CABE78E1251ACC0200F37C17 /* MyViewFourModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFourModal.storyboard; sourceTree = "<group>"; };
+		CABE78E6251ACC2100F37C17 /* MyViewFourPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFourPushedViewController.swift; sourceTree = "<group>"; };
+		CABE78E9251ACC2900F37C17 /* MyViewFourPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFourPushed.storyboard; sourceTree = "<group>"; };
+		CABE78ED251ACC5300F37C17 /* MyViewFiveModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFiveModalViewController.swift; sourceTree = "<group>"; };
+		CABE78F1251ACC5E00F37C17 /* MyViewFiveModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFiveModal.storyboard; sourceTree = "<group>"; };
+		CABE78F4251ACC6D00F37C17 /* MyViewFivePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFivePushedViewController.swift; sourceTree = "<group>"; };
+		CABE78F7251ACC7300F37C17 /* MyViewFivePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFivePushed.storyboard; sourceTree = "<group>"; };
+		CABE7900251ACCB100F37C17 /* MyViewSixModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSixModalViewController.swift; sourceTree = "<group>"; };
+		CABE7903251ACCBA00F37C17 /* MyViewSixModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSixModal.storyboard; sourceTree = "<group>"; };
+		CABE7907251ACCCF00F37C17 /* MyViewSixPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSixPushedViewController.swift; sourceTree = "<group>"; };
+		CABE790B251ACCDB00F37C17 /* MyViewSixPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSixPushed.storyboard; sourceTree = "<group>"; };
+		CABE7911251ACD5500F37C17 /* MyViewSevenModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSevenModalViewController.swift; sourceTree = "<group>"; };
+		CABE7915251ACD5E00F37C17 /* MyViewSevenModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSevenModal.storyboard; sourceTree = "<group>"; };
+		CABE7918251ACD6B00F37C17 /* MyViewSevenPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSevenPushedViewController.swift; sourceTree = "<group>"; };
+		CABE791B251ACD7300F37C17 /* MyViewSevenPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewSevenPushed.storyboard; sourceTree = "<group>"; };
+		CABE7920251ACD9700F37C17 /* MyViewEightModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewEightModalViewController.swift; sourceTree = "<group>"; };
+		CABE7924251ACDA000F37C17 /* MyViewEightModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewEightModal.storyboard; sourceTree = "<group>"; };
+		CABE7927251ACDB600F37C17 /* MyViewEightPushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewEightPushedViewController.swift; sourceTree = "<group>"; };
+		CABE792A251ACDBE00F37C17 /* MyViewEightPushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewEightPushed.storyboard; sourceTree = "<group>"; };
+		CABE792F251ACDE000F37C17 /* MyViewNineModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewNineModalViewController.swift; sourceTree = "<group>"; };
+		CABE7933251ACDE700F37C17 /* MyViewNineModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewNineModal.storyboard; sourceTree = "<group>"; };
+		CABE7936251ACDF400F37C17 /* MyViewNinePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewNinePushedViewController.swift; sourceTree = "<group>"; };
+		CABE7939251ACDFB00F37C17 /* MyViewNinePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewNinePushed.storyboard; sourceTree = "<group>"; };
+		CAC2C2E22518E83900878450 /* Cria09Telas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cria09Telas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC2C2E52518E83900878450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAC2C2E72518E83900878450 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAC2C2E92518E83900878450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAC2C2EC2518E83900878450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAC2C2EE2518E83B00878450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC2C2F12518E83B00878450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAC2C2F32518E83B00878450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC2C2FC2518E8D500878450 /* MyViewOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneViewController.swift; sourceTree = "<group>"; };
+		CAC2C2FF2518E8E100878450 /* MyViewOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOne.storyboard; sourceTree = "<group>"; };
+		CAC2C3052518EC3500878450 /* MyViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewTwoViewController.swift; sourceTree = "<group>"; };
+		CAC2C3092518EC3F00878450 /* MyViewTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewTwo.storyboard; sourceTree = "<group>"; };
+		CAC2C30D2518EDAB00878450 /* MyViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewThreeViewController.swift; sourceTree = "<group>"; };
+		CAC2C3102518EDB400878450 /* MyViewThree.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewThree.storyboard; sourceTree = "<group>"; };
+		CAC2C3142518EE7900878450 /* MyViewFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFourViewController.swift; sourceTree = "<group>"; };
+		CAC2C3182518EE8000878450 /* MyViewFour.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFour.storyboard; sourceTree = "<group>"; };
+		CAC2C31D2518EF8600878450 /* MyViewFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewFiveViewController.swift; sourceTree = "<group>"; };
+		CAC2C3202518EF9800878450 /* MyViewFive.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewFive.storyboard; sourceTree = "<group>"; };
+		CAC2C3262518F1AA00878450 /* MyViewOneModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOneModalViewController.swift; sourceTree = "<group>"; };
+		CAC2C32A2518F1B400878450 /* MyViewOneModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOneModal.storyboard; sourceTree = "<group>"; };
+		CAC2C32D2518F4D100878450 /* MyViewOnePushedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewOnePushedViewController.swift; sourceTree = "<group>"; };
+		CAC2C3302518F4DF00878450 /* MyViewOnePushed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyViewOnePushed.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC2C2DF2518E83900878450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA75F8F0251AE11B008425ED /* MyViewTwoModal */ = {
+			isa = PBXGroup;
+			children = (
+				CA75F8FC251AE171008425ED /* MyViewTwoModalViewController.swift */,
+				CA75F8FF251AE179008425ED /* MyViewTwoModal.storyboard */,
+			);
+			path = MyViewTwoModal;
+			sourceTree = "<group>";
+		};
+		CA75F8F1251AE132008425ED /* MyViewTwoPushed */ = {
+			isa = PBXGroup;
+			children = (
+				CA75F8F6251AE159008425ED /* MyViewTwoPushedViewController.swift */,
+				CA75F8F9251AE162008425ED /* MyViewTwoPushed.storyboard */,
+			);
+			path = MyViewTwoPushed;
+			sourceTree = "<group>";
+		};
+		CABE78A1251AAFC800F37C17 /* MyViewSix */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7906251ACCC000F37C17 /* MyViewSixPushed */,
+				CABE78FA251ACC8300F37C17 /* MyViewSixModal */,
+				CABE78A2251AAFD700F37C17 /* MyViewSixViewController.swift */,
+				CABE78A6251AAFE200F37C17 /* MyViewSix.storyboard */,
+			);
+			path = MyViewSix;
+			sourceTree = "<group>";
+		};
+		CABE78A9251AB01D00F37C17 /* MyViewSeven */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7910251ACD4300F37C17 /* MyViewSevenPushed */,
+				CABE790E251ACD3700F37C17 /* MyViewSevenModal */,
+				CABE78AA251AB02F00F37C17 /* MyViewSevenViewController.swift */,
+				CABE78AE251AB03D00F37C17 /* MyViewSeven.storyboard */,
+			);
+			path = MyViewSeven;
+			sourceTree = "<group>";
+		};
+		CABE78B2251AB05F00F37C17 /* MyViewEight */ = {
+			isa = PBXGroup;
+			children = (
+				CABE791F251ACD8600F37C17 /* MyViewEightPushed */,
+				CABE791E251ACD7E00F37C17 /* MyViewEightModal */,
+				CA7A1BC8251ADE7A00BC5D78 /* MyViewEightViewController.swift */,
+				CA7A1BCB251ADE8300BC5D78 /* MyViewEight.storyboard */,
+			);
+			path = MyViewEight;
+			sourceTree = "<group>";
+		};
+		CABE78BA251AB0C100F37C17 /* MyViewNine */ = {
+			isa = PBXGroup;
+			children = (
+				CABE792E251ACDD000F37C17 /* MyViewNinePushed */,
+				CABE792D251ACDC800F37C17 /* MyViewNineModal */,
+				CABE78BB251AB0D600F37C17 /* MyViewNineViewController.swift */,
+				CABE78BF251AB0DD00F37C17 /* MyViewNine.storyboard */,
+			);
+			path = MyViewNine;
+			sourceTree = "<group>";
+		};
+		CABE78C4251ACB3700F37C17 /* MyViewThreeModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78C6251ACB8000F37C17 /* MyViewThreeModalViewController.swift */,
+				CABE78CA251ACB8800F37C17 /* MyViewThreeModal.storyboard */,
+			);
+			path = MyViewThreeModal;
+			sourceTree = "<group>";
+		};
+		CABE78C5251ACB4C00F37C17 /* MayViewThreePushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78CD251ACB9B00F37C17 /* MyViewThreePushedViewController.swift */,
+				CABE78D0251ACBA300F37C17 /* MyViewThreePushed.storyboard */,
+			);
+			path = MayViewThreePushed;
+			sourceTree = "<group>";
+		};
+		CABE78DC251ACBE600F37C17 /* MyViewFourModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78DD251ACBFB00F37C17 /* MyViewFourModalViewController.swift */,
+				CABE78E1251ACC0200F37C17 /* MyViewFourModal.storyboard */,
+			);
+			path = MyViewFourModal;
+			sourceTree = "<group>";
+		};
+		CABE78E5251ACC0D00F37C17 /* MyViewFourPushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78E6251ACC2100F37C17 /* MyViewFourPushedViewController.swift */,
+				CABE78E9251ACC2900F37C17 /* MyViewFourPushed.storyboard */,
+			);
+			path = MyViewFourPushed;
+			sourceTree = "<group>";
+		};
+		CABE78EC251ACC3800F37C17 /* MyViewFivePushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78F4251ACC6D00F37C17 /* MyViewFivePushedViewController.swift */,
+				CABE78F7251ACC7300F37C17 /* MyViewFivePushed.storyboard */,
+			);
+			path = MyViewFivePushed;
+			sourceTree = "<group>";
+		};
+		CABE78FA251ACC8300F37C17 /* MyViewSixModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7900251ACCB100F37C17 /* MyViewSixModalViewController.swift */,
+				CABE7903251ACCBA00F37C17 /* MyViewSixModal.storyboard */,
+			);
+			path = MyViewSixModal;
+			sourceTree = "<group>";
+		};
+		CABE7906251ACCC000F37C17 /* MyViewSixPushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7907251ACCCF00F37C17 /* MyViewSixPushedViewController.swift */,
+				CABE790B251ACCDB00F37C17 /* MyViewSixPushed.storyboard */,
+			);
+			path = MyViewSixPushed;
+			sourceTree = "<group>";
+		};
+		CABE790E251ACD3700F37C17 /* MyViewSevenModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7911251ACD5500F37C17 /* MyViewSevenModalViewController.swift */,
+				CABE7915251ACD5E00F37C17 /* MyViewSevenModal.storyboard */,
+			);
+			path = MyViewSevenModal;
+			sourceTree = "<group>";
+		};
+		CABE7910251ACD4300F37C17 /* MyViewSevenPushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7918251ACD6B00F37C17 /* MyViewSevenPushedViewController.swift */,
+				CABE791B251ACD7300F37C17 /* MyViewSevenPushed.storyboard */,
+			);
+			path = MyViewSevenPushed;
+			sourceTree = "<group>";
+		};
+		CABE791E251ACD7E00F37C17 /* MyViewEightModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7920251ACD9700F37C17 /* MyViewEightModalViewController.swift */,
+				CABE7924251ACDA000F37C17 /* MyViewEightModal.storyboard */,
+			);
+			path = MyViewEightModal;
+			sourceTree = "<group>";
+		};
+		CABE791F251ACD8600F37C17 /* MyViewEightPushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7927251ACDB600F37C17 /* MyViewEightPushedViewController.swift */,
+				CABE792A251ACDBE00F37C17 /* MyViewEightPushed.storyboard */,
+			);
+			path = MyViewEightPushed;
+			sourceTree = "<group>";
+		};
+		CABE792D251ACDC800F37C17 /* MyViewNineModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE792F251ACDE000F37C17 /* MyViewNineModalViewController.swift */,
+				CABE7933251ACDE700F37C17 /* MyViewNineModal.storyboard */,
+			);
+			path = MyViewNineModal;
+			sourceTree = "<group>";
+		};
+		CABE792E251ACDD000F37C17 /* MyViewNinePushed */ = {
+			isa = PBXGroup;
+			children = (
+				CABE7936251ACDF400F37C17 /* MyViewNinePushedViewController.swift */,
+				CABE7939251ACDFB00F37C17 /* MyViewNinePushed.storyboard */,
+			);
+			path = MyViewNinePushed;
+			sourceTree = "<group>";
+		};
+		CAC2C2D92518E83900878450 = {
+			isa = PBXGroup;
+			children = (
+				CAC2C2E42518E83900878450 /* Cria09Telas */,
+				CAC2C2E32518E83900878450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC2C2E32518E83900878450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC2C2E22518E83900878450 /* Cria09Telas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC2C2E42518E83900878450 /* Cria09Telas */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78BA251AB0C100F37C17 /* MyViewNine */,
+				CABE78B2251AB05F00F37C17 /* MyViewEight */,
+				CABE78A9251AB01D00F37C17 /* MyViewSeven */,
+				CABE78A1251AAFC800F37C17 /* MyViewSix */,
+				CAC2C31B2518EF6400878450 /* MyViewFive */,
+				CAC2C3132518EE5D00878450 /* MyViewFour */,
+				CAC2C30C2518ED9C00878450 /* MyViewThree */,
+				CAC2C3042518EC1F00878450 /* MyViewTwo */,
+				CAC2C2FA2518E8AB00878450 /* MyViewOne */,
+				CAC2C3022518E93C00878450 /* Main */,
+				CAC2C2E52518E83900878450 /* AppDelegate.swift */,
+				CAC2C2E72518E83900878450 /* SceneDelegate.swift */,
+				CAC2C2EE2518E83B00878450 /* Assets.xcassets */,
+				CAC2C2F02518E83B00878450 /* LaunchScreen.storyboard */,
+				CAC2C2F32518E83B00878450 /* Info.plist */,
+			);
+			path = Cria09Telas;
+			sourceTree = "<group>";
+		};
+		CAC2C2FA2518E8AB00878450 /* MyViewOne */ = {
+			isa = PBXGroup;
+			children = (
+				CAC2C3252518F17B00878450 /* MyViewOnePushed */,
+				CAC2C3242518F17200878450 /* MyViewOneModal */,
+				CAC2C2FC2518E8D500878450 /* MyViewOneViewController.swift */,
+				CAC2C2FF2518E8E100878450 /* MyViewOne.storyboard */,
+			);
+			path = MyViewOne;
+			sourceTree = "<group>";
+		};
+		CAC2C3022518E93C00878450 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CAC2C2E92518E83900878450 /* ViewController.swift */,
+				CAC2C2EB2518E83900878450 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CAC2C3042518EC1F00878450 /* MyViewTwo */ = {
+			isa = PBXGroup;
+			children = (
+				CA75F8F1251AE132008425ED /* MyViewTwoPushed */,
+				CA75F8F0251AE11B008425ED /* MyViewTwoModal */,
+				CAC2C3052518EC3500878450 /* MyViewTwoViewController.swift */,
+				CAC2C3092518EC3F00878450 /* MyViewTwo.storyboard */,
+			);
+			path = MyViewTwo;
+			sourceTree = "<group>";
+		};
+		CAC2C30C2518ED9C00878450 /* MyViewThree */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78C5251ACB4C00F37C17 /* MayViewThreePushed */,
+				CABE78C4251ACB3700F37C17 /* MyViewThreeModal */,
+				CAC2C30D2518EDAB00878450 /* MyViewThreeViewController.swift */,
+				CAC2C3102518EDB400878450 /* MyViewThree.storyboard */,
+			);
+			path = MyViewThree;
+			sourceTree = "<group>";
+		};
+		CAC2C3132518EE5D00878450 /* MyViewFour */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78E5251ACC0D00F37C17 /* MyViewFourPushed */,
+				CABE78DC251ACBE600F37C17 /* MyViewFourModal */,
+				CAC2C3142518EE7900878450 /* MyViewFourViewController.swift */,
+				CAC2C3182518EE8000878450 /* MyViewFour.storyboard */,
+			);
+			path = MyViewFour;
+			sourceTree = "<group>";
+		};
+		CAC2C31B2518EF6400878450 /* MyViewFive */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78EC251ACC3800F37C17 /* MyViewFivePushed */,
+				CAC2C3232518F15600878450 /* MyViewFiveModal */,
+				CAC2C31D2518EF8600878450 /* MyViewFiveViewController.swift */,
+				CAC2C3202518EF9800878450 /* MyViewFive.storyboard */,
+			);
+			path = MyViewFive;
+			sourceTree = "<group>";
+		};
+		CAC2C3232518F15600878450 /* MyViewFiveModal */ = {
+			isa = PBXGroup;
+			children = (
+				CABE78ED251ACC5300F37C17 /* MyViewFiveModalViewController.swift */,
+				CABE78F1251ACC5E00F37C17 /* MyViewFiveModal.storyboard */,
+			);
+			path = MyViewFiveModal;
+			sourceTree = "<group>";
+		};
+		CAC2C3242518F17200878450 /* MyViewOneModal */ = {
+			isa = PBXGroup;
+			children = (
+				CAC2C3262518F1AA00878450 /* MyViewOneModalViewController.swift */,
+				CAC2C32A2518F1B400878450 /* MyViewOneModal.storyboard */,
+			);
+			path = MyViewOneModal;
+			sourceTree = "<group>";
+		};
+		CAC2C3252518F17B00878450 /* MyViewOnePushed */ = {
+			isa = PBXGroup;
+			children = (
+				CAC2C32D2518F4D100878450 /* MyViewOnePushedViewController.swift */,
+				CAC2C3302518F4DF00878450 /* MyViewOnePushed.storyboard */,
+			);
+			path = MyViewOnePushed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC2C2E12518E83900878450 /* Cria09Telas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC2C2F62518E83B00878450 /* Build configuration list for PBXNativeTarget "Cria09Telas" */;
+			buildPhases = (
+				CAC2C2DE2518E83900878450 /* Sources */,
+				CAC2C2DF2518E83900878450 /* Frameworks */,
+				CAC2C2E02518E83900878450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cria09Telas;
+			productName = Cria09Telas;
+			productReference = CAC2C2E22518E83900878450 /* Cria09Telas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC2C2DA2518E83900878450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CAC2C2E12518E83900878450 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = CAC2C2DD2518E83900878450 /* Build configuration list for PBXProject "Cria09Telas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC2C2D92518E83900878450;
+			productRefGroup = CAC2C2E32518E83900878450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC2C2E12518E83900878450 /* Cria09Telas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC2C2E02518E83900878450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE78EA251ACC2900F37C17 /* MyViewFourPushed.storyboard in Resources */,
+				CABE78A7251AAFE200F37C17 /* MyViewSix.storyboard in Resources */,
+				CABE78F8251ACC7300F37C17 /* MyViewFivePushed.storyboard in Resources */,
+				CABE7916251ACD5E00F37C17 /* MyViewSevenModal.storyboard in Resources */,
+				CAC2C2F22518E83B00878450 /* LaunchScreen.storyboard in Resources */,
+				CAC2C3192518EE8000878450 /* MyViewFour.storyboard in Resources */,
+				CAC2C2EF2518E83B00878450 /* Assets.xcassets in Resources */,
+				CAC2C3112518EDB400878450 /* MyViewThree.storyboard in Resources */,
+				CABE78D1251ACBA300F37C17 /* MyViewThreePushed.storyboard in Resources */,
+				CABE78CB251ACB8800F37C17 /* MyViewThreeModal.storyboard in Resources */,
+				CABE7934251ACDE700F37C17 /* MyViewNineModal.storyboard in Resources */,
+				CABE7925251ACDA000F37C17 /* MyViewEightModal.storyboard in Resources */,
+				CAC2C3002518E8E100878450 /* MyViewOne.storyboard in Resources */,
+				CABE78E2251ACC0200F37C17 /* MyViewFourModal.storyboard in Resources */,
+				CABE790C251ACCDB00F37C17 /* MyViewSixPushed.storyboard in Resources */,
+				CAC2C32B2518F1B400878450 /* MyViewOneModal.storyboard in Resources */,
+				CA75F8FA251AE162008425ED /* MyViewTwoPushed.storyboard in Resources */,
+				CABE791C251ACD7300F37C17 /* MyViewSevenPushed.storyboard in Resources */,
+				CABE792B251ACDBE00F37C17 /* MyViewEightPushed.storyboard in Resources */,
+				CABE78AF251AB03D00F37C17 /* MyViewSeven.storyboard in Resources */,
+				CA75F900251AE179008425ED /* MyViewTwoModal.storyboard in Resources */,
+				CA7A1BCC251ADE8300BC5D78 /* MyViewEight.storyboard in Resources */,
+				CAC2C2ED2518E83900878450 /* Main.storyboard in Resources */,
+				CABE7904251ACCBA00F37C17 /* MyViewSixModal.storyboard in Resources */,
+				CAC2C30A2518EC3F00878450 /* MyViewTwo.storyboard in Resources */,
+				CABE78F2251ACC5E00F37C17 /* MyViewFiveModal.storyboard in Resources */,
+				CAC2C3212518EF9800878450 /* MyViewFive.storyboard in Resources */,
+				CAC2C3312518F4DF00878450 /* MyViewOnePushed.storyboard in Resources */,
+				CABE793A251ACDFB00F37C17 /* MyViewNinePushed.storyboard in Resources */,
+				CABE78C0251AB0DD00F37C17 /* MyViewNine.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC2C2DE2518E83900878450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABE78E7251ACC2100F37C17 /* MyViewFourPushedViewController.swift in Sources */,
+				CAC2C30E2518EDAB00878450 /* MyViewThreeViewController.swift in Sources */,
+				CABE78CE251ACB9B00F37C17 /* MyViewThreePushedViewController.swift in Sources */,
+				CABE7921251ACD9700F37C17 /* MyViewEightModalViewController.swift in Sources */,
+				CAC2C3152518EE7900878450 /* MyViewFourViewController.swift in Sources */,
+				CABE78EE251ACC5300F37C17 /* MyViewFiveModalViewController.swift in Sources */,
+				CABE7901251ACCB100F37C17 /* MyViewSixModalViewController.swift in Sources */,
+				CAC2C3062518EC3500878450 /* MyViewTwoViewController.swift in Sources */,
+				CA75F8F7251AE159008425ED /* MyViewTwoPushedViewController.swift in Sources */,
+				CABE78F5251ACC6D00F37C17 /* MyViewFivePushedViewController.swift in Sources */,
+				CABE7912251ACD5500F37C17 /* MyViewSevenModalViewController.swift in Sources */,
+				CABE7930251ACDE000F37C17 /* MyViewNineModalViewController.swift in Sources */,
+				CABE7928251ACDB600F37C17 /* MyViewEightPushedViewController.swift in Sources */,
+				CABE78A3251AAFD700F37C17 /* MyViewSixViewController.swift in Sources */,
+				CABE7919251ACD6B00F37C17 /* MyViewSevenPushedViewController.swift in Sources */,
+				CABE78DE251ACBFB00F37C17 /* MyViewFourModalViewController.swift in Sources */,
+				CA7A1BC9251ADE7A00BC5D78 /* MyViewEightViewController.swift in Sources */,
+				CABE78AB251AB02F00F37C17 /* MyViewSevenViewController.swift in Sources */,
+				CABE78C7251ACB8000F37C17 /* MyViewThreeModalViewController.swift in Sources */,
+				CABE7937251ACDF400F37C17 /* MyViewNinePushedViewController.swift in Sources */,
+				CAC2C31E2518EF8600878450 /* MyViewFiveViewController.swift in Sources */,
+				CAC2C3272518F1AA00878450 /* MyViewOneModalViewController.swift in Sources */,
+				CA75F8FD251AE171008425ED /* MyViewTwoModalViewController.swift in Sources */,
+				CAC2C2EA2518E83900878450 /* ViewController.swift in Sources */,
+				CABE78BC251AB0D600F37C17 /* MyViewNineViewController.swift in Sources */,
+				CAC2C2E62518E83900878450 /* AppDelegate.swift in Sources */,
+				CAC2C32E2518F4D100878450 /* MyViewOnePushedViewController.swift in Sources */,
+				CABE7908251ACCCF00F37C17 /* MyViewSixPushedViewController.swift in Sources */,
+				CAC2C2FD2518E8D500878450 /* MyViewOneViewController.swift in Sources */,
+				CAC2C2E82518E83900878450 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAC2C2EB2518E83900878450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC2C2EC2518E83900878450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAC2C2F02518E83B00878450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC2C2F12518E83B00878450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC2C2F42518E83B00878450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAC2C2F52518E83B00878450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC2C2F72518E83B00878450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QQ8S647LF;
+				INFOPLIST_FILE = Cria09Telas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cetava.Cria09Telas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAC2C2F82518E83B00878450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QQ8S647LF;
+				INFOPLIST_FILE = Cria09Telas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cetava.Cria09Telas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC2C2DD2518E83900878450 /* Build configuration list for PBXProject "Cria09Telas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC2C2F42518E83B00878450 /* Debug */,
+				CAC2C2F52518E83B00878450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC2C2F62518E83B00878450 /* Build configuration list for PBXNativeTarget "Cria09Telas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC2C2F72518E83B00878450 /* Debug */,
+				CAC2C2F82518E83B00878450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAC2C2DA2518E83900878450 /* Project object */;
+}
